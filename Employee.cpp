@@ -4,7 +4,7 @@ using namespace std;
 class IEmployee {
     public:
         virtual void work() = 0; // pure virtual function
-        virtual ~Employee() {} // virtual destructor
+        virtual ~IEmployee() {}  // virtual destructor
 };
 
 class Engineer : public IEmployee {
@@ -30,6 +30,6 @@ int main() {
     Worker wrk;
 
     performWork(&eng);
-    perforWork(&wrk);
+    performWork(&wrk);
     return 0;
 }
