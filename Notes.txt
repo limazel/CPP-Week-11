@@ -1,0 +1,2 @@
+If we create all methods with pure virtual this class will be Interface
+We cant create an object with interface classes
